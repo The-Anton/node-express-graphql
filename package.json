@@ -1,0 +1,34 @@
+{
+  "name": "node-express-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Anton/node-express-graphql.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "js",
+    "graphql"
+  ],
+  "author": "Shekhar Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Anton/node-express-graphql/issues"
+  },
+  "homepage": "https://github.com/The-Anton/node-express-graphql#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
